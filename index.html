@@ -6,37 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zoho</title>
     <style>
-        .form{
+   
+      .form{
             color:black;
-            
          }
-      
+
          .header{
             color: purple;
             font-family: Arial,sans-serif;
-            
-            
          }
+
          #purple{
             background-color: purple;
          }
+         
          .head{
             color: purple;
             font-family: Arial,sans-serif;
          }      
       
-         body{
-            background-image: url(images/linked.jpg);
-            background-repeat: no-repeat;
-            background-size: 100% ;
-            
-         }
          form{
             margin-left: 70%;
          }
          p{
             color: gray;
             font-family: Arial,sans-serif;
+         }
+         #img{
+            float: left;
+            width: 50%;
+            height: fit-content;
+         }
+         #lang{
+            margin-left:80%;
+            font-size: small;
+            color: purple;
          }
 
     </style>
@@ -46,8 +50,19 @@
 
 </body>
 <body>
-    <h2 class="header">Zoho.</h2>
-    <p style=>A central hub where teams can work plan <br> and achieve great things together</p>
+   <label id="lang">Language:</label> 
+    <select>
+      <option>English (UK)</option>
+      <option>English (US)</option>
+      <option>Swahili</option>
+      <option>French</option>      
+      <option>Italian</option>
+    </select>
+
+    <h2 class="header">Zoho</h2>
+    <p>A central hub where teams can work plan <br> and achieve great things together</p>
+    
+    <img id="img" src="/images/linked.jpg " alt="zoho" >
     <form class="form">
        <p>START FOR FREE</p> 
        <h1 class="head">Sign up to Zoho.</h1>
