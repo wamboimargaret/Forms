@@ -1,0 +1,42 @@
+.loginform{
+    color:purple;
+    margin-left: 70%;
+}
+
+.header{
+    color: purple; 
+    font-family: Arial,sans-serif;  
+}
+
+p{
+    font-family: Arial,sans-serif;
+    color:darkslategrey;
+}
+
+.head{
+    font-family: Arial,sans-serif;
+}
+
+#button{
+    color: black;
+    background-color: rgb(216, 195, 236);
+}
+label{
+    color: black;
+}
+
+#img{
+    float: left;
+    width: 50%;
+    height: fit-content;
+}
+/* .mydiv{
+    background-image: url("images/tulip.jpg") ;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 50%;  }*/
+.div{
+    
+
+}
+

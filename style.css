@@ -1,0 +1,60 @@
+.form{
+    color:black;
+ }
+
+ .header{
+    color: purple;
+    font-family: Arial,sans-serif;
+ }
+
+ #purple{
+    background-color: purple;
+ }
+
+ .head{
+    color: purple;
+    font-family: Arial,sans-serif;
+ }      
+
+ form{
+    margin-left: 40%;
+    
+ }
+ p{
+    color: gray;
+    font-family: Arial,sans-serif;
+ }
+ #img{
+    float: left;
+    width: 100%;
+    height: fit-content;
+ }
+ #lang{
+    margin-left:80%;
+    font-size: small;
+    color: purple;
+ }
+ /* .mydiv{ */
+    /* background-image: url("images/img.jpg") ; */
+    /* background-repeat: no-repeat; */
+    /* background-position: left; */
+    /* background-size: 50%; */
+ /* } */
+     
+     .column {
+      flex: 50%;
+      padding: 10px;
+      height: 300px; 
+    }
+   
+
+     .row {
+       display: flex;
+       
+       
+     }
+     .row{
+      box-sizing: border-box;
+    }
+    
+ 
